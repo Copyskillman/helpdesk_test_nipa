@@ -1,0 +1,36 @@
+# Dependencies (will be installed in container)
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+*.log
+
+# Documentation
+README.md
+FRONTEND_WORKFLOW.md
+
+# Environment variables
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+.dockerignore
+nginx.conf
